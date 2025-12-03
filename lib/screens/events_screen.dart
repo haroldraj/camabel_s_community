@@ -10,6 +10,5 @@ class EventsScreen extends StatefulWidget {
 class _EventsScreenState extends State<EventsScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
-  }
+return Scaffold(body: Center(child: Text("Events Screen")));  }
 }

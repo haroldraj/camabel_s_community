@@ -1,4 +1,4 @@
-import 'package:camabel_s_community/screens/home_screen.dart';
+import 'package:camabel_s_community/widgets/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -14,7 +14,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primaryColor: Colors.blue[900], useMaterial3: true),
-      home: HomeScreen()
+      home: CustomNavigationBar(),
     );
   }
 }
